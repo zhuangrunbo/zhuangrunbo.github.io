@@ -14,6 +14,6 @@ title: 配置emacs,lisp
   C:\Users\user-name\AppData\Roaming\.emacs.d
   
   附上大神的lisp配置
-  url:https://github.com/purcell/emacs.d
+baseurl: "https://github.com/purcell/emacs.d"
 
   
