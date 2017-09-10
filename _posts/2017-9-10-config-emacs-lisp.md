@@ -15,6 +15,6 @@ title: 配置emacs,lisp
   
   附上大神的lisp配置
   
-baseurl：https://github.com/purcell/emacs.d
+url: https://github.com/purcell/emacs.d
 
   
