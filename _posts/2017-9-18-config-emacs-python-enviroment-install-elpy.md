@@ -6,7 +6,7 @@ title: 配置emacs python环境所遇到的问题
   
   遇到如下问题：依托github issues link 解决问题：
   
-  https://github.com/jorgenschaefer/elpy/issues/737(https://github.com/jorgenschaefer/elpy/issues/737)
+  [https://github.com/jorgenschaefer/elpy/issues/737](https://github.com/jorgenschaefer/elpy/issues/737)
     
   'error: Required feature 'pyvenv' was not provided'
 
