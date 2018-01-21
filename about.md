@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+hi here is bob, i am a animat developer and also intestesting in machine larning, hope everone would brain storm with me!
 
 ### More Information
 
