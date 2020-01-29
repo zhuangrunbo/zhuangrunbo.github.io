@@ -17,7 +17,6 @@ solution:
 purpose:useful comments of debugging
 
 solution:
----
 (defun browse-file-directory ()
   "Open the current directory/package however the OS would (ie Windows explorer).
    If current buffer is a file, then select the file."
@@ -30,8 +29,7 @@ solution:
           (browse-url-of-file (expand-file-name default-directory)))
     (error "No `default-directory' to open")))
 (global-set-key "\C-\M-o" 'browse-file-directory)
----
----
+
 (defun copy-to-next-line()
   "Copies the current line, inserts the copy on the next line."
   (interactive)
@@ -45,4 +43,4 @@ solution:
   (forward-char goal)))
 (global-set-key (kbd "M-RET") 'copy-to-next-line)
 (global-set-key (kbd "M-m") 'copy-to-next-line)
----
+
