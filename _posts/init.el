@@ -19,6 +19,10 @@
   (split-window-below))
 (global-set-key (kbd "C-x 8") 'split-window-layout)
 
+;switching the match during the find file
+(define-key ido-common-completion-map (kbd "C-n") 'ido-next-match)
+(define-key ido-common-completion-map (kbd "C-p") 'ido-prev-match)
+
 ;; moving cursor to other window shortcuts
 (global-set-key (kbd "C-,") 'other-window)
 (global-set-key (kbd "C-.") (lambda () 
