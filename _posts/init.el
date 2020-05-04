@@ -1,5 +1,19 @@
 ;;default setting
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (ido-mode 1) ;; turn on ido-mode by default
+
+;; compile and run, mostly for python 
+(global-set-key (kbd "C-M-p") 'python-shell-send-buffer)
+(global-set-key (kbd "C-M-u") 'python-compile)
+(defun python-compile ()
+  (interactive)
+  (insert (shell-command-to-string (format "python %s" buffer-file-truename))))
 
 ;; plugins
 (add-to-list 'load-path "~/.emacs.d/plugins/")
